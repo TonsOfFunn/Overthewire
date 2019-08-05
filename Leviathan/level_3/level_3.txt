@@ -1,0 +1,30 @@
+
+*** Leviathan Level 3 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan3@leviathan.labs.overthewire.org
+2)  $ Ahdiemoo1j
+3)  $ ll
+4)  $ ltrace ./level3
+5)  $ poop
+6)  $ ./level3
+7)  $ snlprintf
+8)  [You've got shell]!
+9) $ whoami
+10) $ cat /etc/leviathan_pass/leviathan4
+
+
+Password: vuH0coox6m
+

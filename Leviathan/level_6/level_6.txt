@@ -1,0 +1,42 @@
+
+*** Leviathan Level 6 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+gdb or brute
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan5@leviathan.labs.overthewire.org
+2)  $ UgaoFee4li
+3)  $ ll
+4)  $ ./leviathan6
+5)  $ ltrace ./leviathan6
+6)  $ gdb ./leviathan6
+7)  (gdb) disassemble main
+8)  0x08048581 <+68>:	call   0x8048420 <atoi@plt>
+    0x08048586 <+73>:	cmp    0x1c(%esp),%eax
+9)  (gdb) b *main+73 
+10) Breakpoint 1 at 0x8048586
+11) (gdb) r 1337
+12) Starting program: /tmp/levi6/leviathan6 1337
+    Breakpoint 1, 0x08048586 in main ()
+13) (gdb) i r $eax
+14) eax            0x539	1337
+15) (gdb) x/w $esp+0x1c
+16) 0xffffd60c:	7123
+17) (gdb) quit
+18) $ ./leviathan6 7123
+19) $ whoami
+20) $ cat /etc/leviathan_pass/leviathan7
+
+Password: ahy7MaeBo9
+

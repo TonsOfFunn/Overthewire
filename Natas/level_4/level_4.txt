@@ -1,0 +1,32 @@
+
+*** Natas Level 4 ***
+
+GOAL:
+-----
+1)  Username: natas4
+    URL:      http://natas4.natas.labs.overthewire.org
+
+
+HINTS:
+------
+burpsuite
+
+HELP:
+-----
+burpsuite behaves as a MITM proxy to intercept traffic
+
+SOLUTIONS:
+----------
+1)  $ curl -su natas4 http://natas4.natas.labs.overthewire.org/ | html2text
+2)  $ Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+3)  $ burpsuite
+4)  $ x-www-browser --preferences
+	-> Advanced -> Network -> Settings -> Manual Proxy
+5)  $ x-www-browser http://natas4.natas.labs.overthewire.org/
+6)  Change Referer header in burpsuite to
+	http://natas5.natas.labs.overthewire.org/
+7)  Forward packet in burpsuite to natas5
+ 
+
+Password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+

@@ -1,0 +1,22 @@
+
+*** Bandit Level 3 ***
+
+GOAL:
+-----
+1)  The password for the next level is stored in a file 
+    called spaces in this filename located in the home directory
+
+HINTS:
+------
+ls, cd, cat, file, du, find
+
+HELP:
+-----
+Google Search for “spaces in filename”
+
+SOLUTIONS:
+----------
+1)  $  cat spaces\ in\ this\ filename 
+
+Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+

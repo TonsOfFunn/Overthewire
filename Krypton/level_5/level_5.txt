@@ -1,0 +1,31 @@
+
+*** Krypton Level 5 ***
+
+GOAL:
+-----
+1)  FA can break a known key length as well. Lets try one last 
+    polyalphabetic cipher, but this time the key length is unknown.
+
+    Enjoy.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ cd /krypton/krypton5
+2)  $ cat found1
+3)  copy found1 data into online vigenere cipher cracker
+4)  $ x-www-browser https://www.guballa.de/vigenere-solver
+5)  key: KEYLENGTH
+6)  use key to decrypt krypton6 file
+7)  $ cat krypton6
+8)  $ x-www-browser https://www.dcode.fr/vigenere-cipher
+
+
+Password: RANDOM
+

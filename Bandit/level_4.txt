@@ -1,0 +1,33 @@
+
+*** Bandit Level 4 ***
+
+GOAL:
+-----
+1)  The password for the next level is stored in a hidden file 
+    in the inhere directory.
+
+HINTS:
+------
+ls, cd, cat, file, du, find
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ cd inhere/
+2)  $ ls -a
+3)  $ cat .hidden
+
+or
+
+1)  $ ls -a inhere/
+2)  $ cat inhere/.hidden
+
+or
+
+1)  $ ll inhere/
+2)  $ cat inhere/.hidden
+
+Password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+

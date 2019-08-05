@@ -1,0 +1,26 @@
+
+*** Bandit Level 22 ***
+
+GOAL:
+-----
+1)  A program is running automatically at regular intervals from cron, 
+    the time-based job scheduler. Look in /etc/cron.d/ for the configuration 
+    and see what command is being executed.
+
+HINTS:
+------
+cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ cd /etc/cron.d/
+2)  $ cat *
+3)  $ cat /usr/bin/cronjob_bandit22.sh
+4)  $ file /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+5)  $ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+Password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+

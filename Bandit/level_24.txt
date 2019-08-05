@@ -1,0 +1,42 @@
+
+*** Bandit Level 24 ***
+
+GOAL:
+-----
+1)  A program is running automatically at regular intervals from cron, 
+    the time-based job scheduler. Look in /etc/cron.d/ for the configuration 
+    and see what command is being executed.
+
+    NOTE: This level requires you to create your own first shell-script. 
+    This is a very big step and you should be proud of yourself when you beat 
+    this level!
+
+    NOTE 2: Keep in mind that your shell script is removed once executed, 
+    so you may want to keep a copy around…
+
+
+HINTS:
+------
+cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ cd /etc/cron.d
+2)  $ cat *
+3)  $ cat /usr/bin/cronjob_bandit24.sh
+4)  $ mkdir /tmp/catpee
+5)  $ cd /tmp/catpee
+6)  $ nano getpass.sh
+7)  $ cp getpass.sh /var/spool/bandit24/
+8)  $ cat bandit24.pass.txt
+
+
+Password: UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+getpass.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/catpee/bandit24.pass.txt
+

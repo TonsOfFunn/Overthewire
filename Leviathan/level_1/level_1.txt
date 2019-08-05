@@ -1,0 +1,38 @@
+
+*** Leviathan Level 1 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+gdb - The GNU Debugger
+ltrace - A library call tracer
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan1@leviathan.labs.overthewire.org
+2)  $ rioGegei8m
+3)  $ ll
+4)  $ hexdump -C check | more
+5)  $ ./check
+6)  $ sex
+7)  $ whoami
+8)  $ cat /etc/leviathan_pass/leviathan2
+
+or
+
+4)  $ ltrace ./check
+5)  $ ./check
+6)  $ sex
+7)  $ whoami
+8)  $ cat /etc/leviathan_pass/leviathan2
+
+
+Password: ougahZi8Ta
+

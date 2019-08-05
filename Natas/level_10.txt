@@ -1,0 +1,29 @@
+
+*** Natas Level 10 ***
+
+GOAL:
+-----
+1)  Username: natas10
+    URL:      http://natas10.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas10 http://natas10.natas.labs.overthewire.org/
+2)  $ nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+3)  $ curl -vu natas10 http://natas10.natas.labs.overthewire.org/
+                              index-source.html | html2text
+4)  $ nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+5)  $ x-www-browser http://natas10.natas.labs.overthewire.org/
+6)  $ . cat /etc/natas_webpass/natas11 #
+7)  $ 
+
+
+Password: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+

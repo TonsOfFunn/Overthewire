@@ -1,0 +1,29 @@
+
+*** Natas Level 5 ***
+
+GOAL:
+-----
+1)  Username: natas5
+    URL:      http://natas5.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas5 http://natas5.natas.labs.overthewire.org/
+2)  $ iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+3)  $ burpsuite
+4)  $ x-www-browser --preferences
+	-> Advanced -> Network -> Settings -> Manual Proxy
+5)  $ x-www-browser http://natas5.natas.labs.overthewire.org/
+6)  Change Raw Data field Set-Cookie: loggedin=1
+7)  Forward packet from burpsuite to natas5
+
+
+Password: aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+

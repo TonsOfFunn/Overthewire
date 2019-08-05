@@ -1,0 +1,30 @@
+
+*** Natas Level 6 ***
+
+GOAL:
+-----
+1)  Username: natas6
+    URL:      http://natas6.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas6 http://natas6.natas.labs.overthewire.org/ 
+2)  $ aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+3)  $ curl -vu natas6 http://natas6.natas.labs.overthewire.org/index-source.html | 
+	html2text
+4)  $ aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+5)  $ curl -vu natas6 http://natas6.natas.labs.overthewire.org/includes/secret.inc
+6)  $ aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+7)  $ x-www-browser http://natas6.natas.labs.overthewire.org/
+8)  $ FOEIUWGHFEEUHOFUOIU
+
+
+Password: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+

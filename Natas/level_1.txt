@@ -1,0 +1,25 @@
+
+*** Natas Level 1 ***
+
+GOAL:
+-----
+1)  Username: natas1
+    URL:      http://natas1.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ x-www-browser http://natas1.natas.labs.overthewire.org
+2)  $ natas1
+3)  $ gtVrDuiDfck831PqWsLEZy5gyDz1clto
+4)  $ ctrl + U
+
+
+Password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+

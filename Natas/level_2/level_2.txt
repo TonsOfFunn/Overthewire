@@ -1,0 +1,31 @@
+
+*** Natas Level 2 ***
+
+GOAL:
+-----
+1)  Username: natas2
+    URL:      http://natas2.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -su natas2 http://natas2.natas.labs.overthewire.org
+2)  $ ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+3)  $ sh stripHTML.sh files
+4)  $ curl -su natas2 http://natas2.natas.labs.overthewire.org/files/users.txt
+5)  $ ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+
+
+Password: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+stripHTML.sh $1
+#!/bin/bash
+curl -su natas2 http://natas2.natas.labs.overthewire.org/$1/ > strippedHTML.txt
+html2text strippedHTML.txt
+

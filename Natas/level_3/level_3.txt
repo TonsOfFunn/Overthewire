@@ -1,0 +1,32 @@
+
+*** Natas Level 3 ***
+
+GOAL:
+-----
+1)  Username: natas3
+    URL:      http://natas3.natas.labs.overthewire.org
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas3 http://natas3.natas.labs.overthewire.org/
+2)  $ sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+3)  $ curl -su natas3 http://natas3.natas.labs.overthewire.org/robots.txt
+4)  $ sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+5)  $ sh stripHTML.sh s3cr3t
+6)  $ cat strippedHTML.txt
+7)  $ curl -su natas3 http://natas3.natas.labs.overthewire.org/s3cr3t/users.txt
+8)  $ sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+Password: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+stripHTML.sh $1
+#!/bin/bash
+curl -su natas3 http://natas3.natas.labs.overthewire.org/$1/ > HTML.txt
+html2text HTML.txt > strippedHTML.txt
+

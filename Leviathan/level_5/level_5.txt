@@ -1,0 +1,26 @@
+
+*** Leviathan Level 5 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan5@leviathan.labs.overthewire.org
+2)  $ Tith4cokei
+3)  $ ll
+4)  $ ltrace ./leviathan5
+5)  $ ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+6)  $ ./leviathan5
+
+
+Password: UgaoFee4li
+

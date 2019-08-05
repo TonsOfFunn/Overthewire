@@ -1,0 +1,29 @@
+
+*** Natas Level 11 ***
+
+GOAL:
+-----
+1)  Username: natas11
+    URL:      http://natas11.natas.labs.overthewire.org
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas11 http://natas11.natas.labs.overthewire.org/
+2)  $ U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+3)  $ curl -vu natas11 http://natas11.nataoverthewire.org/
+                              index-source.html | html2text
+4)  $ U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+5)  $ 
+6)  $ 
+7)  $ 
+
+
+Password: 
+

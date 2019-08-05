@@ -1,0 +1,44 @@
+
+*** Leviathan Level 4 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan4@leviathan.labs.overthewire.org
+2)  $ vuH0coox6m
+3)  $ ll
+4)  $ cd .trash
+5)  $ ./bin
+6)  convert ./bin output (binary) to ascii
+7)  $ python
+8)  > import binascii
+9)  > n = int('01010100011010010111010001101000001101000110
+               00110110111101101011011001010110100100001010', 2)
+10) > binascii.unhexlify('%x' % n)
+11) 'Tith4cokei\n'
+
+
+Password: Tith4cokei
+
+
+For ASCII characters in the range [ -~] on PYTHON 2:
+
+>>> import binascii
+>>> bin(int(binascii.hexlify('hello'), 16))
+'0b110100001100101011011000110110001101111'
+
+In reverse:
+
+>>> n = int('0b110100001100101011011000110110001101111', 2)
+>>> binascii.unhexlify('%x' % n)
+'hello'

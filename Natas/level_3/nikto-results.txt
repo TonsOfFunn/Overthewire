@@ -1,0 +1,33 @@
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          176.9.9.172
++ Target Hostname:    176.9.9.172
++ Target Port:        80
++ Start Time:         2017-12-16 23:28:40 (GMT-5)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.10 (Debian)
++ Server leaks inodes via ETags, header found with file /, fields: 0x76 0x543b8d8450a40 
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Apache/2.4.10 appears to be outdated (current is at least Apache/2.4.12). Apache 2.0.65 (final release) and 2.2.29 are also current.
++ Allowed HTTP Methods: GET, HEAD, POST, OPTIONS 
+ - STATUS: Completed 2080 requests (~30% complete, 14.5 minutes left): currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.17611 sec, 10 requests: 0.1775 sec.
+ - STATUS: Completed 2230 requests (~32% complete, 14.0 minutes left): currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.17735 sec, 10 requests: 0.1774 sec.
+ - STATUS: Completed 3140 requests (~45% complete, 11.3 minutes left): currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.18989 sec, 10 requests: 0.1794 sec.
+ - STATUS: Completed 4080 requests (~59% complete, 8.6 minutes left): currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.16876 sec, 10 requests: 0.1671 sec.
++ OSVDB-3233: /icons/README: Apache default file found.
+ - STATUS: Completed 6260 requests (~90% complete, 2.0 minutes left): currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.17937 sec, 10 requests: 0.1780 sec.
+ - STATUS: Completed 7720 requests: currently in plugin 'Nikto Tests'
+- STATUS: Running average: 100 requests: 0.17095 sec, 10 requests: 0.1707 sec.
++ 8328 requests: 0 error(s) and 7 item(s) reported on remote host
++ End Time:           2017-12-16 23:53:29 (GMT-5) (1489 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+

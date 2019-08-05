@@ -1,0 +1,25 @@
+
+*** Bandit Level 2 ***
+
+GOAL:
+-----
+1)  The password for the next level is stored in a file 
+    called - located in the home directory
+
+HINTS:
+------
+ls, cd, cat, file, du, find
+
+HELP:
+-----
+Google Search for “dashed filename”
+Advanced Bash-scripting Guide - Chapter 3 - Special Characters
+
+
+SOLUTIONS:
+----------
+1)  $ file ./-
+2)  $ cat ./-
+
+Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+

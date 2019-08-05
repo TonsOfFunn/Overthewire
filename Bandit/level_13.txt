@@ -1,0 +1,50 @@
+
+*** Bandit Level 13 ***
+
+GOAL:
+-----
+1)  The password for the next level is stored in the file data.txt, 
+    which is a hexdump of a file that has been repeatedly compressed. 
+    For this level it may be useful to create a directory under /tmp 
+    in which you can work using mkdir. For example: mkdir /tmp/myname123. 
+    Then copy the datafile using cp, and rename it using mv (read the manpages!)  
+
+HINTS:
+------
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv
+
+HELP:
+-----
+Hex dump on Wikipedia
+
+SOLUTIONS:
+----------
+1)  $ mkdir /tmp/catpiss
+2)  $ cp data.txt /tmp/catpiss
+3)  $ xxd -r data.txt > encoded.txt
+4)  $ mv encoded.txt encoded.gz
+5)  $ file encoded.gz
+6)  $ gunzip encoded.gz
+7)  $ file encoded
+8)  $ bzip2 -d encoded
+9)  $ file encoded.out
+10) $ mv encoded.out encoded.gz
+11) $ file encoded.gz
+12) $ gunzip encoded.gz
+13) $ file encoded
+14) $ tar xvf encoded
+15) $ file data5.bin
+16) $ tar xvf data5.bin                         
+17) $ file data6.bin                         
+18) $ bzip2 -d data6.bin                         
+19) $ file data6.bin.out                         
+21) $ tar xvf data6.bin.out                         
+22) $ file data8.bin
+23) $ mv data8.bin data8.gz
+24) $ file data8.gz
+25) $ gzip -d data8.gz
+26) $ file data8
+27) $ cat data8
+
+Password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+

@@ -1,0 +1,29 @@
+
+*** Bandit Level 6 ***
+
+GOAL:
+-----
+1)  The password for the next level is stored in a file 
+    somewhere under the inhere directory and has all of the 
+    following properties:
+
+    human-readable
+    1033 bytes in size
+    not executable
+
+HINTS:
+------
+ls, cd, cat, file, du, find
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ find inhere/ -size 1033c
+2)  $ cat inhere/maybehere07/.file2
+
+Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+
+

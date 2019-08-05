@@ -1,0 +1,8 @@
+****** Index of /s3cr3t ******
+[[ICO]]       Name             Last_modified    Size Description
+===========================================================================
+[[PARENTDIR]] Parent_Directory                    -  
+[[TXT]]       users.txt        2016-12-20 05:15   40  
+===========================================================================
+     Apache/2.4.10 (Debian) Server at natas3.natas.labs.overthewire.org
+     Port 80

@@ -1,0 +1,26 @@
+
+*** Leviathan Level 7 ***
+
+GOAL:
+-----
+1)  There is no information for this level, intentionally.
+
+
+HINTS:
+------
+
+HELP:
+-----
+
+SOLUTIONS:
+----------
+1)  $ ssh -p 2223 leviathan7@leviathan.labs.overthewire.org
+2)  $ ahy7MaeBo9
+3)  $ ll
+4)  $ cat CONGRATULATIONS
+
+Well Done, you seem to have used a *nix system before, now try something 
+more serious.
+
+(Please don't post writeups, solutions or spoilers about the games on the web. 
+Thank you!)
